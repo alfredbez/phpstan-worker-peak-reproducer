@@ -1,0 +1,9 @@
+parameters:
+    level: 0
+    paths:
+        - generated
+    tmpDir: cache
+    parallel:
+        jobSize: 20
+        maximumNumberOfProcesses: 4
+        minimumNumberOfJobsPerProcess: 1

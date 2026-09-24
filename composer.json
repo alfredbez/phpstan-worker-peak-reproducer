@@ -1,0 +1,13 @@
+{
+    "name": "reproducer/phpstan-worker-peak",
+    "description": "Standalone reproducer for missing PHPStan worker memory on incremental runs",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "2.3.x-dev"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
